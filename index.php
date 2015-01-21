@@ -35,7 +35,7 @@
 			<div class="span9">
 				<h2 id="news">News</h2>
 				<ul>
-					<li>Conference article "Local Search for Multiobjective Multiple Sequence Alignment" accepted to <a href="http://iwbbio.ugr.es">IWBBIO2015</a></li>
+					<li>Conference article "Local Search for Multiobjective Multiple Sequence Alignment" accepted to <a href="http://iwbbio.ugr.es" target="_blank">IWBBIO2016<a></li>
 					<li>Article "<a href="http://dx.doi.org/10.1186/1751-0473-9-2" target="_blank">MOSAL: Software tools for multiobjective sequence alignment</a>", accepted to <a href="http://www.scfbm.org" target="_blank">Source Code for Biology and Medicine</a></li>
 					<li>BiMuSA, an implementation for biobjective multiple sequence alignment problems, is available <a href="http://www.zib.de/schenker/downloads/bimusa.tar.gz">here</a> (see <a href="http://eden.dei.uc.pt/~paquete/papers/MOSAL/R3.pdf
 ">technical report</a>)</li>
