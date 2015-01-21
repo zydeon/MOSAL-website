@@ -20,7 +20,7 @@
 					<li><a href="#description">Description</a></li>
 					<li><a href="#license">License</a></li>
 					<li><a href="#download">Download</a></li>
-					<li><a href="#tryonline">Try on-line</a></li>
+					<li><a href="#tryonline">Try online</a></li>
 					<li><a href="#building">Building</a></li>
 					<li><a href="#usage">Usage</a></li>
 					<li><a href="#output">Output</a></li>
@@ -40,7 +40,7 @@
 					<li>BiMuSA, an implementation for biobjective multiple sequence alignment problems, is available <a href="http://www.zib.de/schenker/downloads/bimusa.tar.gz">here</a> (see <a href="http://eden.dei.uc.pt/~paquete/papers/MOSAL/R3.pdf
 ">technical report</a>)</li>
 					<li>Due to an unexpected hardware failure, the web server was down several times in the last two weeks. The problem is now fixed</li>
-					<li>On-line version of MOSAL is available <a href="align">here</a></li>
+					<li>Online version of MOSAL is available <a href="align">here</a></li>
 					<li><a href="http://www.gcb2013.de" target="_blank">Poster accepted to the German Conference in Bionformatics 2013</a></li>
 				</ul>
 				<br>
@@ -70,8 +70,8 @@
 				<p>Source code can be found <a href="MOSAL.tar.gz">here</a>.</p>
 
 				<br>
-				<h2 id="tryonline">Try on-line</h2>
-				<p>A limited version of the application is available on-line <a href="align">here</a>.</p>            
+				<h2 id="tryonline">Try online</h2>
+				<p>A limited version of the application is available online <a href="align">here</a>.</p>            
 
 				<br>
 				<h2 id="building">Building</h2>
