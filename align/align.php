@@ -4,6 +4,7 @@
 	include 'utils.php';
 	require 'PHPMailer-master/class.phpmailer.php';
 
+	$ini = parse_ini_file('mosal.ini');
 	$timestamp = $_POST['timestamp'];
 	$input_path = 'inputs/'.$timestamp.'-'.$_SERVER['REMOTE_ADDR'].'-'.$_SERVER['REMOTE_PORT'];
 	$executable_path = '../../MultiObjective';
@@ -31,7 +32,7 @@
 	fwrite($f, format_seq($seq2));
 	fclose($f);		
 
-	$cmd = $executable_path."/mosal ".$input_path."/s1.fasta ".$input_path."/s2.fasta ".$problem." ".$approach." ".$subscore." ".$traceback;
+	$cmd = $ini['executable_path']." ".$input_path."/s1.fasta ".$input_path."/s2.fasta ".$problem." ".$approach." ".$subscore." ".$traceback;
 	exec($cmd, $output, $return );
 	if($return == 0){
 		// success
